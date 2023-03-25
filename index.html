@@ -1,23 +1,93 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorick Thijs Polderman</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-        <meta charset="utf-8">
-        <title>Jorick Thijs Polderman</title>
-        <align><center><h1>Jorick Thijs Polderman</h1></center></align>
-    </head>
+        .header {
+            background-color: #fff;
+            color: #000;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+        }
 
-    <body>
-    <align><center>
-        <a data-flickr-embed="true" href="https://www.flickr.com/photos/197317026@N06" title="">
-        <img src="https://live.staticflickr.com/65535/52640476821_120d366d0e_h.jpg" width="" height="" alt=""></a>
-        <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-    </center></align>
-    </body>
+        .header h1 {
+            margin: 0;
+        }
 
+        .bio {
+            font-size: 18px;
+            font-weight: normal;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .social-icons img {
+            margin: 0 10px;
+            width: 50px;
+            height: 50px;
+        }
+
+        .footer {
+            background-color: #fff;
+            color: #000;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .bio {
+                font-size: 16px;
+            }
+
+            .social-icons img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Hello!</h1>
+    </div>
+
+    <div class="bio">
+        <p>Hi, I'm Jorick Thijs Polderman. I have a background in performing arts, lived in different countries within Europe, and I am currently based in Tallinn, Estonia. I am an avid street photographer and enjoy making music. I shoot predominantly with a 28mm focal length and a rangefinder camera. I also have a day job in recruitment.</p>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://twitter.com/jcktp_"><img src="https://img.icons8.com/material/24/null/twitter--v2.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com/jcktp_/"><img src="https://img.icons8.com/material/24/null/instagram-new--v1.png" alt="Instagram"></a>
+        <a href="https://glass.photo/jcktp_"><img src="https://img.icons8.com/material/24/null/compact-camera--v1.png"" alt="Glass"></a>
+        <a href="https://www.flickr.com/photos/jcktp_/"><img src="https://img.icons8.com/material/24/null/flickr.png" alt="Flickr"></a>
+        <a href="https://www.linkedin.com/in/jcktp/"><img src="https://img.icons8.com/material/24/null/linkedin--v1.png" alt="LinkedIn"></a>
+    </div>
+
+    <div class="footer">
+        <p>© 2023 Jorick Polderman. All rights reserved.</p>
+    </div>
+</body>
 </html>
-
