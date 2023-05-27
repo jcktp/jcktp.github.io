@@ -1,91 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jorick Thijs Polderman</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f7f7f7;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            min-height: 100vh;
-        }
+  <title>My Photography Website</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #F5F5F5;
+    }
 
-        .header {
-            background-color: #fff;
-            color: #000;
-            font-weight: bold;
-            text-align: center;
-            padding: 20px;
-        }
+    .left-bar {
+      background-color: #333;
+      color: #fff;
+      width: 200px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      padding: 20px;
+    }
 
-        .header h1 {
-            margin: 0;
-        }
+    .left-bar h2 {
+      font-weight: bold;
+      font-size: 24px;
+      margin: 0;
+      margin-bottom: 20px;
+    }
 
-        .bio {
-            font-size: 18px;
-            font-weight: normal;
-            text-align: center;
-            margin: 20px auto;
-            max-width: 800px;
-        }
+    .left-bar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
 
-        .social-icons {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 20px;
-        }
+    .left-bar ul li {
+      margin-bottom: 10px;
+    }
 
-        .social-icons img {
-            margin: 0 10px;
-            width: 50px;
-            height: 50px;
-        }
+    .left-bar ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 24px;
+      transition: color 0.3s;
+    }
 
-        .footer {
-            background-color: #fff;
-            color: #000;
-            font-weight: bold;
-            text-align: center;
-            padding: 20px;
-        }
+    .left-bar ul li a:hover {
+      color: #2E4053;
+    }
 
-        @media only screen and (max-width: 600px) {
-            .bio {
-                font-size: 16px;
-            }
+    .left-bar ul li:nth-child(2) a:hover {
+      color: #58D68D;
+    }
 
-            .social-icons img {
-                width: 40px;
-                height: 40px;
-            }
-        }
-    </style>
+    .left-bar ul li:nth-child(3) a:hover {
+      color: #2E86C1;
+    }
+
+    .left-bar ul li:nth-child(4) a:hover {
+      color: #E74C3C;
+    }
+
+    .content {
+      margin-left: 220px;
+      padding: 20px;
+    }
+
+    .content h1 {
+      font-weight: bold;
+      font-size: 36px;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      margin: 0;
+    }
+
+    .contact-form {
+      margin-top: 20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-form input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Hello!</h1>
-    </div>
+  <div class="left-bar">
+    <h2>Navigation</h2>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Photos</a></li>
+      <li><a href="#">Social</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
 
-    <div class="bio">
-        <p></p>
-    </div>
-
-    <div class="social-icons">
-        <a href="https://twitter.com/jcktp_"><img src="https://img.icons8.com/material/24/null/twitter--v2.png" alt="Twitter"></a>
-        <a href="https://www.instagram.com/jcktp_/"><img src="https://img.icons8.com/material/24/null/instagram-new--v1.png" alt="Instagram"></a>
-        <a href="https://glass.photo/jcktp_"><img src="https://img.icons8.com/material/24/null/compact-camera--v1.png"" alt="Glass"></a>
-        <a href="https://www.flickr.com/photos/jcktp_/"><img src="https://img.icons8.com/material/24/null/flickr.png" alt="Flickr"></a>
-        <a href="https://www.linkedin.com/in/jcktp/"><img src="https://img.icons8.com/material/24/null/linkedin--v1.png" alt="LinkedIn"></a>
-    </div>
-
-    <div class="footer">
-        <p>
+  <div class="content">
+    <h1>N/A</h1>
+    <p>
+    
+    </p
